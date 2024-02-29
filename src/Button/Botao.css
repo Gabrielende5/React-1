@@ -1,0 +1,30 @@
+.botao-logar{
+    width: 76px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2px; 
+    
+    border: 2px solid black; 
+    /* tamanho + função necessária + cor  */
+
+}
+.botao-deslogar{
+    width: 90px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2px;
+    border: 2px solid black;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
