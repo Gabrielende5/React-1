@@ -5,7 +5,7 @@
     border-radius: 8px;
     padding-left: 20px;
     min-height: 400px;
-    background-color: green;
+    background-color: rgb(9, 0, 88);
     display: flex;
     justify-content: space-between;
     flex-direction: column;

@@ -1,10 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import AnimeComponent from './Components/AnimeComponents/AnimeComponent';
+import {router} from './router';
 
 function App() {
   return (
     <div>
-     <AnimeComponent></AnimeComponent>  {/* Retornando do "AppExemplo" para "App" */}
+      <RouterProvider router={router}></RouterProvider>  {/* Ou seja, o index (o servidor) irá mostrar o que tem no app e o app ira mostrar as rotas */}
     </div>
   );
 }
