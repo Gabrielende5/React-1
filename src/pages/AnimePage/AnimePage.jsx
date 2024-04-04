@@ -6,8 +6,8 @@ import "./AnimePage.css"
 
 
 function AnimePage() {
-    const [animeName, setAnimeName] = useState("one punch");
-    const [animeDigitado, setAnimeDigitado] = useState ("one punch");
+    const [animeName, setAnimeName] = useState("Dragon Ball");
+    const [animeDigitado, setAnimeDigitado] = useState ("Dragon Ball");
     const {animeData, loading, error} = useApiAnimeData(animeName);
     {/* pegando o anime digitado */}
     const [showPopup, setShowPopup] = useState(false);

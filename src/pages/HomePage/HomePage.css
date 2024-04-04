@@ -34,8 +34,13 @@ button{
     font-size: 1.2em;
     border: none;
     cursor: pointer;
+
 }
 button:hover{
     background-color: #cc3700;
     
+}
+.Link-to-anime{
+    text-decoration: none;
+    color: white;
 }

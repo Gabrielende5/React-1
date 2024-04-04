@@ -33,4 +33,9 @@
 .form{
     display: flex; 
 }
+.anime-cards{
+    display: flex;
+    flex-wrap: wrap; 
+        /* Faz os itens (cards) ficarem alinhados */
+}
 
