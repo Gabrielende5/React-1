@@ -1,0 +1,32 @@
+.aside-notes{
+    background-color: rgb(9, 0, 88);
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formNote{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: -300px;
+}
+.margin-form{
+    margin-bottom: 10px;
+}
+#buttonForm{
+    background-color: rgb(0, 172, 172);
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 6px;
+    margin: 15px;
+}
+#buttonForm:hover{
+    background-color: rgb(92, 187, 171);
+    cursor: pointer;
+}
+#formNote label{
+    font-size: 1.4rem;
+}

@@ -5,6 +5,8 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import HomePage from "./pages/HomePage/HomePage";
 import Layout from "./pages/Layout/Layout";
 import Favorito from "./Components/Favoritos/Favorito";
+import NotesPage from "./pages/NotesPage/NotesPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
 
 export const router = createBrowserRouter([{
     path: "/",
@@ -26,9 +28,17 @@ export const router = createBrowserRouter([{
                 // se digitar " /favorito" vai para os favoritos
             loader: async () => { 
                 // "async" = Lida com várias tarefas ao mesmo tempo
-                return fetch (`https://api.jikan.moe/v4/anime?q=Dragon Ball Z`)
+                return fetch (`https://api.jikan.moe/v4/anime?q=DragonBallZ`)
             }
         },
+        {
+            path: "/notes",
+            element: <NotesPage></NotesPage>
+        },
+        {
+            path: "/login",
+            element: <LoginPage/>
+        }
 
     ],errorElement: <ErrorPage></ErrorPage>
         // se digitar qualquer coisa diferente (ex: "/animes") vai para a pagina de erro

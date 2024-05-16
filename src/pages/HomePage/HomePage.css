@@ -34,13 +34,17 @@ button{
     font-size: 1.2em;
     border: none;
     cursor: pointer;
-
+    /* animation: fadeinout 1s linear forwards;  */
+    transition-duration: 0.4s; 
 }
 button:hover{
-    background-color: #cc3700;
-    
+    background-color: #cc3700; 
 }
 .Link-to-anime{
     text-decoration: none;
     color: white;
 }
+/* @keyframes fadeinout{
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
+}  */
